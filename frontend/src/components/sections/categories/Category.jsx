@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionHeading from '../sections-heading/SectionHeading'
 import Card from '../../card/Card'
 

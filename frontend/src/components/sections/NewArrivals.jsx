@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionHeading from './sections-heading/SectionHeading'
 import Card from '../card/Card';
 import Jeans from '../../assets/images/jeans-girl.png'
@@ -23,9 +22,10 @@ const items = [
     imagePath: TShirt,
   },
   {
-    title: "Skirts",
-    imagePath: Skirts,
+    title: "Dresses",
+    imagePath: Dress,
   },
+
   {
     title: "Joggers",
     imagePath: Joggers,
@@ -38,10 +38,9 @@ const items = [
     title: "Shirts",
     imagePath: Shirt,
   },
-
   {
-    title: "Dresses",
-    imagePath: Dress,
+    title: "Skirts",
+    imagePath: Skirts,
   },
 ];
 

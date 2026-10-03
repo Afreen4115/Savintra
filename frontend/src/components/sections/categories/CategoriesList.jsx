@@ -1,8 +1,7 @@
-import React from "react";
 import content from "../../../data/content.json"
 import Category from "./Category";
 
-const Categories = () => {
+const CategoriesList = () => {
   return (
     <>
       {content?.categories?.map((category, index) => (
@@ -12,4 +11,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default CategoriesList;

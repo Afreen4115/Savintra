@@ -1,6 +1,6 @@
-import React from 'react'
 import {Search,Heart,UserRound,ShoppingCart} from 'lucide-react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import './Navbar.css'
  
 const Navbar = () => {
   return (
@@ -14,16 +14,36 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center flex-1 gap-10">
         <ul className="flex gap-14 text-gray-600 hover:text-black">
           <li>
-            <Link to="/">Shop</Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+            >
+              Shop
+            </NavLink>
           </li>
           <li>
-            <Link to="/mens">Mens</Link>
+            <NavLink
+              to="/men"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+            >
+              Mens
+            </NavLink>
           </li>
           <li>
-            <Link to="/womens">Womens</Link>
+            <NavLink
+              to="/women"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+            >
+              Womens
+            </NavLink>
           </li>
           <li>
-            <Link to="/kids">Kids</Link>
+            <NavLink
+              to="/kids"
+              className={({ isActive }) => (isActive ? "active-link" : "")}
+            >
+              Kids
+            </NavLink>
           </li>
         </ul>
       </div>
@@ -53,7 +73,7 @@ const Navbar = () => {
             </button>
           </li>
           <li>
-            <Link to='/cart-items'>
+            <Link to="/cart-items">
               <ShoppingCart />
             </Link>
           </li>
