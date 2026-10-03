@@ -7,7 +7,8 @@ import Navbar from "./components/navigation/Navbar";
 import HeroSection from "./components/herosection/HeroSection";
 import NewArrivals from "./components/sections/NewArrivals";
 import content from "./data/content.json"
-import Category from "./components/sections/categories/Category";
+import Categories from "./components/sections/categories/Categories";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Navbar />
       <HeroSection/>
       <NewArrivals/>
-      <Category title={content?.categories[0]?.title} data={content?.categories[0]?.data} />
+      <Categories/>
+      <Footer content={content?.footer}/>
     </div>
   );
 }

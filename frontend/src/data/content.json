@@ -7,8 +7,110 @@
                     "title":"Hoodies & Sweetshirt",
                     "description":"Explore Now!",
                     "image": "/images/sweat-hoodie-girl.png"
+                },
+                {
+                  "title": "Coats & Parkas",
+                  "description": "Explore Now!",
+                  "image": "/images/coat-parkas-girl.png"
+                },
+                {
+                  "title": "Tees & T-Shirt",
+                  "description": "Explore Now!",
+                  "image": "/images/tees-tshirts-girl.png"
+                },
+                {
+                  "title": "Shorts",
+                  "description": "Explore Now!",
+                  "image": "/images/shorts-girl.png"
                 }
             ]
+        },
+        {
+          "title": "Categories For Men",
+          "data": [
+            {
+              "title": "Shirts",
+              "description": "Explore Now!",
+              "image": "/images/shirt-boys.png"
+            },
+            {
+              "title": "Jeans",
+              "description": "Explore Now!",
+              "image": "/images/jeans-boys.png"
+            },
+            {
+              "title": "Hoodies & Sweetshirt",
+              "description": "Explore Now!",
+              "image": "/images/sweat-shirt-boys.png"
+            },
+            {
+              "title": "T-Shirts",
+              "description": "Explore Now!",
+              "image": "/images/tshirt-boys.png"
+            }
+          ]
         }
-    ]
+        
+    ],
+    "footer":{
+        "items":[
+            {
+                "title":"Need Help",
+                "list":[
+                  {
+                    "label": "Contact Us",
+                    "path": ""
+                  },
+                  {
+                    "label": "Track Order",
+                    "path": ""
+                  },
+                  {
+                    "label": "Returns & Refunds",
+                    "path": ""
+                  },
+                  {
+                    "label": "FAQ's",
+                    "path": ""
+                  }
+                ]
+            },
+            {
+                "title":"Company",
+                "list":[
+                    {
+                        "label":"About Us",
+                        "path":""
+                    },
+                    {
+                        "label":"Media",
+                        "path":""
+                    }
+                ]
+            },
+            {
+                "title":"More Info",
+                "list":[
+                    {
+                        "label":"Term and Conditions",
+                        "path":""
+                    },
+                    {
+                        "label":"Privacy Policy",
+                        "path":""
+                    },
+                    {
+                        "label":"Shipping Policy",
+                        "path":""
+                    }
+                ]
+            },
+            {
+                "title":"Location",
+                "description":"Location Country"
+                
+            }
+        ],
+        "copyright":"Copyright @ 2026 Shavintra"
+    }
 }
