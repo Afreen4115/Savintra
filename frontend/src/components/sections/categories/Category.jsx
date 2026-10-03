@@ -11,6 +11,7 @@ const Category = ({title,data}) => {
           data?.map((item, index) => {
             return (
               <Card
+                key={item?.title+index}
                 title={item?.title}
                 description={item?.description}
                 imagePath={item?.image}
