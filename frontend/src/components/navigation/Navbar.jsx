@@ -26,7 +26,7 @@ const Navbar = () => {
               to="/men"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              Mens
+              Men
             </NavLink>
           </li>
           <li>
@@ -34,7 +34,7 @@ const Navbar = () => {
               to="/women"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              Womens
+              Women
             </NavLink>
           </li>
           <li>

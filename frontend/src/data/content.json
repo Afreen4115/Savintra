@@ -1,6 +1,8 @@
 {
-    "categories":[
-        {
+  "pages":{
+    "shop":{
+      "sections":[
+         {
             "title":"Categories For Women",
             "data":[
                 {
@@ -25,7 +27,7 @@
                 }
             ]
         },
-        {
+         {
           "title": "Categories For Men",
           "data": [
             {
@@ -50,9 +52,10 @@
             }
           ]
         }
-        
-    ],
-    "footer":{
+      ]
+    }
+  },
+  "footer":{
         "items":[
             {
                 "title":"Need Help",
